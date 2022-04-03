@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pysmart"
+version = "0.1.0"
+description = ""
+authors = ["Sebastien Nicolet <snicolet95@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^1.9.0"
+cached-property = "^1.5.2"
+
+[tool.poetry.dev-dependencies]
+ipython = "^8.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
